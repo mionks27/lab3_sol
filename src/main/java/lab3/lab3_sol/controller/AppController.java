@@ -11,7 +11,7 @@ public class AppController {
     public void registrarNuevoEquipo(ArrayList<Team> teams){
         Scanner scanner = new Scanner(System.in);
         Team team = new Team();
-        System.out.print(" Nombre : ");
+        System.out.print(" Nombreeeeee : ");
         team.setNombre(scanner.nextLine());
         boolean condicion = buscarEquipoXNombre(teams, team);
         if (condicion) {
