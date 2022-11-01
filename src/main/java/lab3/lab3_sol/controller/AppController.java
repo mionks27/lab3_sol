@@ -40,7 +40,7 @@ public class AppController {
         Player player = new Player();
         System.out.print(" Nombre : ");
         player.setNombre(scanner.nextLine());
-        System.out.print(" posicion : ");
+        Ssssystem.out.print(" posicion : ");
         player.setPosicion(scanner.nextLine());
         System.out.print(" Numero de Camiseta : ");
         player.setNum_camiseta(Integer.parseInt(scanner.nextLine()));
