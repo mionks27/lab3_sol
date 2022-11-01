@@ -18,7 +18,8 @@ public class AppController {
             System.out.println("\"Error, ya existe el nombre\"");
             return;
         }
-        System.out.print(" Pais : ");
+        
+		System.out.print(" Pais : ");fwe	fefwefwefwefeww
         team.setPais(scanner.nextLine());
         System.out.print(" Iniciales : ");
         team.setIniciales(scanner.nextLine());
